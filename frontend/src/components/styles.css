@@ -1,0 +1,46 @@
+.calendar-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .date-picker {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .date-button {
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    background: #f0f0f0;
+    border-radius: 5px;
+  }
+  
+  .date-button.selected {
+    background: #007bff;
+    color: white;
+  }
+  
+  .slots-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .slot-button {
+    padding: 8px 12px;
+    background: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .error {
+    color: red;
+    font-weight: bold;
+  }
+  
