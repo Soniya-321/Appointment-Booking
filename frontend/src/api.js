@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:5000";
+const API_URL = "https://appointment-booking-cklb.onrender.com";
 
 export const getDoctors = async () => axios.get(`${API_URL}/doctors`);
 export const getAvailableSlots = async (doctorId, date) => 
